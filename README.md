@@ -2,6 +2,9 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+- Added svelte plugin with Hot Module Reload and keep state
+- Added src/public svelte structure
+
 ## Available Scripts
 
 ### npm start
