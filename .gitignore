@@ -1,4 +1,5 @@
 .build
 build
+public/dist
 web_modules
 node_modules

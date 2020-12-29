@@ -45,10 +45,11 @@
             href="https://svelte.dev"
             target="_blank"
             rel="noopener noreferrer">
-            Learn Svelte now
+            Learn Svelte
         </a>
     </header>
     <section>
         <web-comp val={count}/>
+        <my-element />
     </section>
 </div>
