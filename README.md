@@ -4,6 +4,7 @@
 
 - Added svelte plugin with Hot Module Reload and keep state
 - Added src/public svelte structure
+- Cool example including lit-html and dynamic updates
 
 ## Available Scripts
 

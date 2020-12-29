@@ -13,7 +13,7 @@
     .App-header {
         background-color: #f9f6f6;
         color: #333;
-        min-height: 100vh;
+        min-height: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -39,7 +39,7 @@
 <div class="App">
     <header class="App-header">
         <img src="/logo.svg" class="App-logo" alt="logo" />
-        <p>Page has been open for <code>{count}</code> seconds.</p>
+        <p>Page has been open <code>{count}</code> seconds.</p>
         <a
             class="App-link"
             href="https://svelte.dev"
@@ -48,4 +48,7 @@
             Learn Svelte now
         </a>
     </header>
+    <section>
+        <web-comp val={count}/>
+    </section>
 </div>
