@@ -1,3 +1,4 @@
+import "./webcomp.css";
 import { html, render } from "lit-html";
 class WebComp extends HTMLElement {
     constructor() {
